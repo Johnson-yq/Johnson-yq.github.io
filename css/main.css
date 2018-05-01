@@ -1,0 +1,459 @@
+body{ background-color: #FFD931; }
+.topbar{
+	margin: 0 auto;
+	width: 1349px;
+	height: 26px;
+	background-color: #f6f6f6;
+	font-size: 12px;
+	font-family: "microsoft yahei","宋体",Arial,sans-serif,simsun;
+}
+.topleft{
+	float: left;
+}
+.topright{
+	float: right;
+}
+.topright div{
+	display: inline-block;
+}
+
+  /*BANNER部分*/
+
+.fp-banner{
+	height: 556px;
+	background:url(../img/banner.png) no-repeat center 0;
+	background-color: #ffdc00;
+	position: relative;
+}
+
+.fp-banner-btn{
+	width: 1005px;
+	height: 540px;
+	position: relative;
+	margin: auto;
+}
+.fp-banner-rc{
+	width: 244px;
+	height: 70px;
+	background: url(../img/charge.png) no-repeat;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.fp-banner-fw{
+	width: 244px;
+	height: 70px;
+	background: url(../img/banner-fw.png) no-repeat;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 350px;
+}
+
+.fp-banner-migu{
+	width: 244px;
+	height: 70px;
+	background: url(../img/banner-migu.png) no-repeat;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 700px;
+}
+
+
+/*导航栏*/
+
+.fp-bar{
+	width: 160px;
+	height: 418px;
+	background: url(../img/bars.png);
+	position: fixed;
+	right: 0;
+	top: 30%;
+}
+
+.fp-bar div{
+	width: 144px;
+	height: 44px;
+	cursor: pointer;
+}
+
+/*.fp-bar div:first-child{
+	background-color: #ccc;
+}*/
+
+.fp-bar  .fp-bar-lottery,.fp-bar  .fp-bar-flow{
+	margin: 0 auto;
+}
+
+.fp-bar  .fp-bar-recharge,.fp-bar  .fp-bar-migu{
+	margin: 25px auto;
+}
+
+/*抽奖部分*/
+
+.fp-lottery {
+	background-color: #ffdc00;
+}
+.fp-lottery .fp-lottery-title{
+	width: 1003px;
+	height: 263px;
+	background: url(../img/floor-one.png) no-repeat;
+	margin: 0 auto;
+}
+
+.fp-lottery .fp-lottery-content{
+	width: 1000px;
+	height: 907px;
+	background: url(../img/floor-one-bg.png) no-repeat;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -1px;
+}
+
+.fp-lottery-content .fp-lottery-start{
+	width: 529px;
+	height: 537px;
+	background: url(../img/lucky-bg.png) no-repeat;
+	margin: 30px 35px;
+	float: left;
+}
+
+.fp-lottery-start .fp-lottery-btn-grey{
+	width: 153px;
+	height: 152px;
+	background: url(../img/lottery-btn-gray.png) no-repeat;
+	margin: 189px 0 0 187px;
+}
+
+.fp-lottery .fp-lottery-list{
+	width: 322px;
+	height: 460px;
+	background: url(../img/lotterylist-bg.png) no-repeat;
+	margin: 35px 5px;
+	float: left;
+}
+
+.fp-lottery-list .fp-lottery-name{
+	color: #fff;
+	font-size: 24px;
+	margin: 70px 0 30px 106px;
+	font-weight: 800;
+}
+
+.fp-lottery-roster{
+
+	margin: 0 auto;
+}
+.fp-lottery-roster li{
+	margin-bottom: 8px;
+	color: red;
+}
+.fp-lottery-btn p{
+	width: 151px;
+	height: 49px;
+	cursor: pointer;
+}
+
+.fp-lottery-btn{
+	position: relative;
+	float: left;
+}
+.fp-rule-btn{
+	background: url(../img/lottery-rule.png);
+	position: absolute;
+	top: 500px;
+	right: 175px;
+}
+
+.fp-price-btn{
+	background: url(../img/my-lottery.png);
+	position: absolute;
+	top: 500px;
+	right: 5px;
+}
+
+
+/*第二重好礼*/
+.fp-recharge{
+	width: 1003px;
+	height: 654px;
+	background: url(../img/floor-two-bg.png) no-repeat;
+	margin: 0 auto;
+	margin-top: -3px;
+	position: relative;
+}
+
+.fp-recharge .fp-rc-details{
+	width: 120px;
+	height: 53px;
+	background: url(../img/act-details.png) no-repeat;
+	position: absolute;
+	top: -12px;
+	right: 59px;
+	cursor: pointer;
+}
+
+.fp-recharge .fp-rc-phone{
+	padding-top: 57px;
+}
+
+.fp-rc-phone .fp-rc-number{
+	font-size: 28px;
+	color: #fff;
+	float: left;
+	padding: 13px 32px 0 107px;
+	font-weight: bold;
+}
+
+.fp-rc-phone .fp-rc-input{
+	width: 411px;
+	height: 58px;
+	background: url(../img/rc-phone-bg.png) no-repeat;
+	color: #6A7FB6;
+	padding-left: 10px;
+	font-size: 30px;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.fp-rc-gear{
+	margin: 30px 0 0 46px;
+	clear: both;
+}
+
+.fp-rc-gear li{
+	width: 240px;
+	height: 120px;
+	float: left;
+	cursor: pointer;
+	margin: 0 0 24px 24px;
+}
+
+
+.fp-100-7{
+	background: url(../img/rc-100-7.png) no-repeat;
+}
+
+.fp-200-14{
+	background: url(../img/rc-200-14.png) no-repeat;
+}
+.fp-300-21{
+	background: url(../img/rc-300-21.png) no-repeat;
+}
+.fp-400-28{
+	background: url(../img/rc-400-28.png) no-repeat;
+}
+.fp-500-35{
+	background: url(../img/rc-500-35.png) no-repeat;
+}
+
+.fp-rc-amount p{
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 108px;
+	margin-bottom: 10px;
+}
+
+.fp-rc-amount span{
+	margin-left: 10px;
+}
+
+.fp-rc-zf{
+	margin-top: 40px;
+}
+
+.fp-rc-btn{
+	width: 311px;
+	height: 99px;
+	background: url(../img/rc-btn.png) no-repeat;
+	position: absolute;
+	top: 457px;
+	left: 560px;
+}
+
+/*第三重好礼*/
+
+.fp-flow .fp-fw-title{
+	width: 1001px;
+	height: 305px;
+	background: url(../img/floor-three.png) no-repeat;
+	margin: 0 auto;
+	margin-top: -3px;
+}
+
+.fp-flow .fp-fw-content{
+	width: 1001px;
+	height: 641px;
+	background: url(../img/floor-three-bg.png) no-repeat;
+	margin: 0 auto;
+	margin-top: -45px;
+	position: relative;
+}
+   
+
+   /*活动详情*/
+
+.fp-fw-content .fp-fw-details{
+	width: 120px;
+	height: 53px;
+	background: url(../img/act-details.png) no-repeat;
+	position: absolute;
+	top: 25px;
+	right: 45px;
+	cursor: pointer;
+
+}
+
+.fp-fw-content .fp-fw-tq{
+	width: 214px;
+	height: 43px;
+	background: url(../img/spring-font.png) no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 400px;
+
+}
+
+.fp-fw-content .fp-fw-privilege{
+	float: left;
+	width: 381px;
+	height: 439px;
+	background: url(../img/privilege-bg.png) no-repeat;
+	margin: 65px 0 0 23px;
+}
+
+.privilege-btn{
+	width: 260px;
+	height: 82px;
+	background: url(../img/privilege-btn.png);
+	margin: 450px 0 0 70px;
+}
+
+
+.fp-fw-phone{
+	float: left;
+	margin: 90px 0 0 10px;
+}
+
+.fp-fw-phone .fp-fw-number{
+	float: left;
+	padding: 8px 0 0 20px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.fp-fw-phone .fp-fw-input{
+	width: 273px;
+	height: 39px;
+	background: url(../img/fw-phone-bg.png) no-repeat;
+	font-size: 18px;
+	padding-left: 9px;
+	margin-left: 20px;
+}
+
+
+.fp-fw-stall{
+	position: absolute;
+	top: 130px;
+	left: 400px;
+}
+.fp-2048-15{
+	float: left;
+	width: 249px;
+	height: 159px;
+	margin: 0 10px 10px 0;
+	background: url(../img/fw-2048-15.png) no-repeat;
+}
+
+.descri{
+	font-size: 12px;
+	color: #fff;
+	padding-left: 100px;
+	font-family: "微软雅黑" ;
+	margin-top: -15px;
+}
+
+
+.fp-fw-btn{
+	width: 260px;
+	height: 80px;
+	background: url(../img/fw-btn.png) no-repeat;
+	margin:18px 0 0 157px;
+}
+
+/*第四重好礼*/
+
+.fp-migu{
+	width: 1003px;
+	height: 1052px;
+	background: url(../img/floor-four-bg.png) no-repeat;
+	margin: 0 auto;
+	margin-top: -3px;
+	position: relative;
+}
+
+.fp-migu .fp-migu-register{
+	float: left;
+	width: 321px;
+	height: 295px;
+	background: url(../img/hf-20.png) no-repeat;
+	margin: 400px 0 0 60px;
+}
+
+
+.migu-btn{
+	width: 259px;
+	height: 82px;
+	background: url(../img/migu-btn.png);
+	margin: 360px 0 0 20px;
+}
+
+.fp-migu-recharge{
+	float: left;
+}
+
+.fp-migu-tp{
+	width: 532px;
+	height: 408px;
+	background: url(../img/register-bg.png);
+	margin: 340px 0 0 25px;
+	position: relative;
+}
+
+
+.migu-details{
+	width: 120px;
+	height: 53px;
+	background: url(../img/act-details.png) no-repeat;
+	position: absolute;
+	top: 320px;
+	left: 370px;
+	cursor: pointer;
+}
+
+
+.click-regi{
+	width: 259px;
+	height: 82px;
+	background: url(../img/migu-register-gray.png);
+	margin: 10px 0 0 160px;
+}
+
+
+.wd-mask{
+	background-color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4349px;
+	z-index: 500;
+	display: none;
+}
+
+

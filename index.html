@@ -1,13 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyFirstGit</title>
+	<meta charset="UTF-8">
+	<title>supershoppingday</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
-    <p class="word">这是我的第一个git尝试应用。</p>
-    <p class="push">我想要尝试push上去GitHub！</p>
+	<!-- 头部 -->
+	<div class="topbar">
+		<div class="topleft">
+			<a href="#">ENGLISH</a>
+			<a href="#">政企客户</a>
+		</div>
+		<div class="topright">
+			<div class="download" id="divLogin">
+				<a href="">登陆</a>
+				<span>|</span>
+			</div>
+			<div class="download" id="divLogin">
+				<a href="">手机营业厅</a>
+				<span>|</span>
+			</div>
+			<div class="download" id="divLogin">
+				<a href="">积分商城</a>
+				<span>|</span>
+			</div>
+			<div class="download" id="divLogin">
+				<a href="">关于中国移动</a>
+				<span>|</span>
+			</div>
+		</div>
+	</div>
+	<!-- banner部分 -->
+	<div class="fp-banner" id="fp-banner">
+		<div class="fp-banner-btn">
+			<div class="fp-banner-rc"></div>
+			<div class="fp-banner-fw"></div>
+			<div class="fp-banner-migu"></div>
+		</div>
+	</div>
+
+	<!-- 导航栏 -->
+	<div class="fp-bar">
+		<a href="#fp-lottery"><div class="fp-bar-lottery"></div></a>
+		<a href="#fp-recharge"><div class="fp-bar-recharge"></div></a>
+		<a href="#fp-flow"><div class="fp-bar-flow"></div></a>
+		<a href="#fp-migu"><div class="fp-bar-migu"></div></a>
+	</div>
+
+	<!-- 第一重好礼 -->
+	<div class="fp-lottery" id="fp-lottery">
+		<div class="fp-lottery-title"></div>
+		<div class="fp-lottery-content">
+			<div class="fp-lottery-start">
+				<input type="button" class="fp-lottery-btn-grey">
+			</div>
+			<div class="fp-lottery-list">
+				<p class="fp-lottery-name">中奖信息</p>
+				<ul class="fp-lottery-roster">
+					<marquee behavior="scroll" direction="up" scrollamount="5" scrolldelay="300">
+						<li class="list1">用户135****8900获得一等奖</li>
+						<li class="list2">用户135****8900获得一等奖</li>
+						<li class="list3">用户135****8900获得一等奖</li>
+						<li class="list4">用户135****8900获得一等奖</li>
+						<li class="list5">用户135****8900获得一等奖</li>
+						<li class="list6">用户135****8900获得一等奖</li>
+						<li class="list7">用户135****8900获得一等奖</li>
+						<li class="list8">用户135****8900获得一等奖</li>
+					</marquee>
+				</ul>
+			</div>
+			<div class="fp-lottery-btn">
+				<p class="fp-rule-btn"></p>
+				<p class="fp-price-btn"></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 第二重好礼 -->
+	<div class="fp-recharge" id="fp-recharge">
+		<div class="fp-recharge-content">
+			<div class="fp-rc-details"></div>
+			<div class="fp-rc-phone">
+				<p class="fp-rc-number">手机号码：</p>
+				<input type="text" class="fp-rc-input" placeholder="请输入电话号码" maxlength="11">
+			</div>
+			<div class="fp-rc-stall">
+				<ul class="fp-rc-gear clearfix">
+					<li class="fp-100-7"></li>
+					<li class="fp-200-14"></li>
+					<li class="fp-300-21"></li>
+					<li class="fp-400-28"></li>
+					<li class="fp-500-35"></li>
+				</ul>
+			</div>
+			<div class="fp-rc-amount">
+				<p class="fp-rc-zf">支付金额：<span class="fp-rc-je">100元</span></p>
+				<p class="fp-rc-dz">到账金额：<span class="fp-rc-yu">107元</span></p>
+			</div>
+			<input type="button" class="fp-rc-btn" >
+		</div>
+	</div>
+
+	<!-- 第三重好礼 -->
+
+	<div class="fp-flow" id="fp-flow">
+		<div class="fp-fw-title"></div>
+		<div class="fp-fw-content">
+			<div class="fp-fw-details"></div>
+			<div class="fp-fw-tq"></div>
+			<div class="fp-fw-privilege">
+				<input type="button" class="privilege-btn">
+			</div>
+			<div>
+			<div class="fp-fw-phone">
+				<p class="fp-fw-number">手机号码：</p>
+				<input type="text" class="fp-fw-input" placeholder="请勿输入错误号码" maxlength="11">
+			</div>
+			<div class="fp-fw-stall">
+				<ul class="fp-fw-gear clearfix">
+					<li class="fp-2048-15"></li>
+					<li class="fp-2048-15"></li>
+					<li class="fp-2048-15"></li>
+					<li class="fp-2048-15"></li>
+				</ul>
+				<p class="descri">流量说明：【全国】即时生效，24小时有效，支持2/3/4G</p>
+				<input type="button" class="fp-fw-btn" style="cursor: pointer;">
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 第四重好礼 -->
+	<div class="fp-migu" id="fp-migu">
+		<div class="fp-migu-register">
+			<input type="button" class="migu-btn">
+		</div>
+		<div class="fp-migu-recharge">
+			<div class="fp-migu-tp">
+				<div class="migu-details"></div>
+			</div>
+			<input type="button" class="click-regi">
+		</div>
+	</div>
+
+
+	<!-- 弹窗 -->
+	
+	<div class="wd-mask"></div>
 </body>
 </html>

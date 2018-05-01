@@ -1,0 +1,29 @@
+body,p,a{
+	margin: 0; padding: 0;
+}
+a{
+	text-decoration: none;
+}
+input[type=button]{
+	border: none;
+	cursor: pointer;
+}
+input{
+	outline: none;
+	border: none;
+}
+ul,li{
+	list-style: none;
+}
+
+
+/*清除浮动使用*/
+.clearfix:after {
+content: "\0020";
+display: block;
+height: 0;
+clear: both;
+}
+.clearfix {
+zoom: 1;
+}
